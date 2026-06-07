@@ -9,6 +9,9 @@ I design curriculum that balances foundational CS skills with emerging literacie
 
 ## Featured Work
 
+### Standards Crosswalk & Curriculum Audit Tool
+An interactive crosswalk mapping my CTE course builds (Advanced CS I, Web Development & Design I, Digital Game Design I & II, and Computer Education Technology) against the Nevada Academic Content Standards, with live coverage metrics and performance-indicator gap analysis. [View the tool](https://wbum.github.io/curriculum-portfolio/)
+
 ### AI Literacy Integration Framework for Secondary CS
 *Coming soon* - A systematic approach to integrating AI literacy into existing CS courses without sacrificing foundational programming skills.
 

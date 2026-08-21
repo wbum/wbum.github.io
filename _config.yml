@@ -166,53 +166,13 @@ include:
   - _pages
   - files
 exclude:
-  # --- academicpages demo content, 2026-08-20 ---
-  # /cv-json/ was the worst of these: a full fabricated CV under Will's own
-  # name and schema.org Person markup — "Red Brick University", "Ph.D in
-  # Version Control Theory", "M.S. in Jekyll", plus every demo paper and
-  # talk. It renders _data/cv.json, so excluding the collections did not
-  # touch it. /markdown_generator/ was likewise serving the demo
-  # publications.csv. Both excluded.
-  - _pages/cv-json.md
-  - _data/cv.json
-  - _includes/cv-template.html
-  - markdown_generator
-  # These shipped with the theme and were never replaced. Until today they
-  # were LIVE and indexable at /publications/, /talks/, /portfolio/ and
-  # /year-archive/, listing invented items ("Paper Title Number 1", "Tutorial
-  # 1") under my name. Excluded so they stop building at all. Delete the
-  # directories outright when convenient; this is the reversible version.
-  - _publications
-  - _talks
-  - _teaching
-  - _portfolio
-  - _posts
-  - _drafts
-  - _pages/publications.html
-  - _pages/talks.html
-  - _pages/teaching.html
-  - _pages/portfolio.html
-  - _pages/talkmap.html
-  - _pages/year-archive.html
-  - _pages/category-archive.html
-  - _pages/tag-archive.html
-  - _pages/page-archive.html
-  - _pages/collection-archive.html
-  - _pages/archive-layout-with-content.md
-  - _pages/markdown.md
-  - _pages/non-menu-page.md
-  - files/paper1.pdf
-  - files/paper2.pdf
-  - files/paper3.pdf
-  - files/slides1.pdf
-  - files/slides2.pdf
-  - files/slides3.pdf
-  - files/bibtex1.bib
-  - talkmap.ipynb
-  - talkmap_out.ipynb
-  - talkmap.py
-  - talkmap
-  # --- end demo content ---
+  # The academicpages demo content this theme ships with — sample papers,
+  # talks, portfolio items, posts, the JSON-CV page and its _data/cv.json,
+  # and the markdown_generator scripts — was DELETED on 2026-08-20 rather
+  # than merely excluded. Until that day it was live and indexable under
+  # Will's own name at /publications/, /talks/, /portfolio/,
+  # /year-archive/, /cv-json/ and /markdown_generator/. Nothing here needs
+  # to hide it any more; if a demo file ever reappears, delete it.
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -267,21 +227,10 @@ kramdown:
 
 
 # These settings control the types of collections used by the template
-# Demo collections disabled 2026-08-20 along with the exclude list above.
-# Re-enable a collection only when it holds real entries.
+# No collections. The theme's four demo collections (teaching, publications,
+# portfolio, talks) were deleted 2026-08-20. Re-add one here only when it
+# holds real entries.
 collections:
-  teaching:
-    output: false
-    permalink: /:collection/:path/
-  publications:
-    output: false
-    permalink: /:collection/:path/
-  portfolio:
-    output: false
-    permalink: /:collection/:path/
-  talks:
-    output: false
-    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site

@@ -7,7 +7,7 @@ author_profile: true
 
 Computer science educator and curriculum architect. Nineteen years of classroom instruction, the last seven building CS pathways from the standards up. I design coherent programs rather than individual courses, and I verify them with tooling rather than by assertion.
 
-Contact: [nvedugator@gmail.com](mailto:nvedugator@gmail.com) · [LinkedIn](https://linkedin.com/in/williambumgardner) · [GitHub](https://github.com/wbum)
+Contact: [nvedugator@gmail.com](mailto:nvedugator@gmail.com) · [LinkedIn](https://linkedin.com/in/williambumgardner) · [GitHub](https://github.com/wbum) · ORCID [0009-0001-4704-3601](https://orcid.org/0009-0001-4704-3601)
 
 ## Education
 

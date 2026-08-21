@@ -19,6 +19,8 @@ The shape: build and iterate an AI literacy unit inside a running high school CS
 
 **Timeline:** Dissertation proposal in progress. Committee formation June 2027, defense targeted December 2027.
 
+ORCID: [0009-0001-4704-3601](https://orcid.org/0009-0001-4704-3601)
+
 ## Publications
 
 **"Distrust the Machine"** — ACM *Inroads*. Submitted July 2026, under review. Generative AI in the CS classroom demands productive skepticism rather than prohibition or uncritical adoption, with a four-phase classroom scaffold for building it.

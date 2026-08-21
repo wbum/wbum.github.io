@@ -38,10 +38,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # URL - add once an ORCID iD is registered
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -166,6 +166,43 @@ include:
   - _pages
   - files
 exclude:
+  # --- academicpages demo content, 2026-08-20 ---
+  # These shipped with the theme and were never replaced. Until today they
+  # were LIVE and indexable at /publications/, /talks/, /portfolio/ and
+  # /year-archive/, listing invented items ("Paper Title Number 1", "Tutorial
+  # 1") under my name. Excluded so they stop building at all. Delete the
+  # directories outright when convenient; this is the reversible version.
+  - _publications
+  - _talks
+  - _teaching
+  - _portfolio
+  - _posts
+  - _drafts
+  - _pages/publications.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/portfolio.html
+  - _pages/talkmap.html
+  - _pages/year-archive.html
+  - _pages/category-archive.html
+  - _pages/tag-archive.html
+  - _pages/page-archive.html
+  - _pages/collection-archive.html
+  - _pages/archive-layout-with-content.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
+  - files/bibtex1.bib
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - talkmap.py
+  - talkmap
+  # --- end demo content ---
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -220,18 +257,20 @@ kramdown:
 
 
 # These settings control the types of collections used by the template
+# Demo collections disabled 2026-08-20 along with the exclude list above.
+# Re-enable a collection only when it holds real entries.
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

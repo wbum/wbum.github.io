@@ -13,10 +13,10 @@ title                    : "Will Bumgardner"
 title_separator          : "-"
 name                     : &name "Will Bumgardner"
 description              : &description "Curriculum Design | AI Literacy Pedagogy | CS Education"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://wbum.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://willbumgardner.com # Custom domain (CNAME). Was https://wbum.github.io, which put the github.io hostname in the sitemap and schema.org markup and split indexing across two hosts.
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "wbum/wbum.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -167,6 +167,16 @@ include:
   - files
 exclude:
   # --- academicpages demo content, 2026-08-20 ---
+  # /cv-json/ was the worst of these: a full fabricated CV under Will's own
+  # name and schema.org Person markup — "Red Brick University", "Ph.D in
+  # Version Control Theory", "M.S. in Jekyll", plus every demo paper and
+  # talk. It renders _data/cv.json, so excluding the collections did not
+  # touch it. /markdown_generator/ was likewise serving the demo
+  # publications.csv. Both excluded.
+  - _pages/cv-json.md
+  - _data/cv.json
+  - _includes/cv-template.html
+  - markdown_generator
   # These shipped with the theme and were never replaced. Until today they
   # were LIVE and indexable at /publications/, /talks/, /portfolio/ and
   # /year-archive/, listing invented items ("Paper Title Number 1", "Tutorial

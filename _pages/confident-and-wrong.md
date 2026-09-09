@@ -55,15 +55,18 @@ If you want it when it is out, drop your email below and I'll tell you. That is 
      No Kit JS is loaded on purpose: this is a plain POST, and
      Kit performs the redirect to /confident-and-wrong/thanks/
      from the form's own settings.
+     Input and button carry explicit background/color: the theme has a
+     dark mode that sets --global-text-color to #fff, which rendered the
+     typed address white on a white field. Do not remove them.
      ============================================================ -->
 
 <form action="https://app.kit.com/forms/9900240/subscriptions" method="post"
       style="display:flex; margin:1.5em 0; gap:.6em; flex-wrap:wrap;">
   <label for="email_address" style="flex:1 1 100%; font-weight:600;">Tell me when it's out</label>
   <input type="email" name="email_address" id="email_address" required placeholder="you@school.org"
-         style="flex:1 1 260px; padding:.6em .7em; border:1px solid #b8b8b8; border-radius:5px; font-size:1em;">
+         style="flex:1 1 260px; padding:.6em .7em; border:1px solid #b8b8b8; border-radius:5px; font-size:1em; background:#ffffff; color:#1a1a1a; -webkit-text-fill-color:#1a1a1a;">
   <button type="submit"
-          style="flex:0 0 auto; padding:.6em 1.2em; border:0; border-radius:5px; font-size:1em; font-weight:600; cursor:pointer;">Notify me</button>
+          style="flex:0 0 auto; padding:.6em 1.2em; border:0; border-radius:5px; font-size:1em; font-weight:600; cursor:pointer; background:#2f7f93; color:#ffffff;">Notify me</button>
   <p style="flex:1 1 100%; font-size:.85em; opacity:.75; margin:.4em 0 0;">One email when the kit ships. Nothing else, and no list swapping.</p>
 </form>
 

@@ -31,12 +31,12 @@ I wrote it for high school computer science, not for AP. My kids are in an intro
 
 <div style="display:flex; flex-wrap:wrap; gap:1em; margin:1.5em 0;">
   <div style="flex:1 1 260px; border:1px solid #d0d0d0; border-radius:6px; padding:1.1em 1.3em;">
-    <div style="font-size:1.9em; font-weight:700; line-height:1;">$89</div>
+    <div style="font-size:1.9em; font-weight:700; line-height:1;">$149</div>
     <div style="margin-top:.35em;">One teacher</div>
     <div style="margin-top:.6em; font-size:.85em; opacity:.7; text-transform:uppercase; letter-spacing:.04em;">Coming early 2027</div>
   </div>
   <div style="flex:1 1 260px; border:1px solid #d0d0d0; border-radius:6px; padding:1.1em 1.3em;">
-    <div style="font-size:1.9em; font-weight:700; line-height:1;">$499</div>
+    <div style="font-size:1.9em; font-weight:700; line-height:1;">$1,200</div>
     <div style="margin-top:.35em;">Department, up to ten</div>
     <div style="margin-top:.6em; font-size:.85em; opacity:.7; text-transform:uppercase; letter-spacing:.04em;">Coming early 2027</div>
   </div>

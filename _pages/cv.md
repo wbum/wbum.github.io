@@ -51,7 +51,7 @@ Design-based research on AI literacy pedagogy in secondary computer science. Com
 
 ## Publications
 
-**"Distrust the Machine"** — ACM *Inroads*. Submitted July 2026, under review.
+**"Distrust the Machine: A Four-Phase AI Literacy Scaffold in High School CS"** — ACM *Inroads*. Accepted October 2026, forthcoming.
 
 ## Credentials & Service
 

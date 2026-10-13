@@ -23,7 +23,7 @@ ORCID: [0009-0001-4704-3601](https://orcid.org/0009-0001-4704-3601)
 
 ## Publications
 
-**"Distrust the Machine"** — ACM *Inroads*. Submitted July 2026, under review. Generative AI in the CS classroom demands productive skepticism rather than prohibition or uncritical adoption, with a four-phase classroom scaffold for building it.
+**"Distrust the Machine: A Four-Phase AI Literacy Scaffold in High School CS"** — ACM *Inroads*. Accepted October 2026, forthcoming. Generative AI in the CS classroom demands productive skepticism rather than prohibition or uncritical adoption, with a four-phase classroom scaffold for building it.
 
 ## Applied Work
 

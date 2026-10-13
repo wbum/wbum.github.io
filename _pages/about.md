@@ -21,7 +21,7 @@ My work focuses on:
 
 ## Research
 
-I'm a doctoral candidate at National University. My dissertation is heading toward a design-based research study of AI literacy pedagogy in secondary computer science: build and iterate a unit inside a running high school CS course, then consolidate what the cycles teach into design principles a rural single-teacher program can actually use. The methodology is not settled until my committee meets in 2027, so read that as the direction rather than a finished claim. [More on the research](/research/).
+I'm a doctoral candidate at National University. My dissertation is heading toward a design-based research study of AI literacy pedagogy in secondary computer science: build and iterate a unit inside a running high school CS course, then consolidate what the cycles teach into design principles a rural single-teacher program can actually use. The methodology is not settled until my committee meets in 2027, so read that as the direction rather than a finished claim. The four-phase AI literacy scaffold behind it, **"Distrust the Machine,"** is forthcoming in ACM *Inroads*. [More on the research](/research/).
 
 ## What I'm Building
 

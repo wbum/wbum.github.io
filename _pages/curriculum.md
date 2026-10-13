@@ -35,7 +35,7 @@ A vendor curriculum stopped meeting Nevada's standards, so I wrote the replaceme
 
 A four-phase classroom progression — awareness, bounded practice, critical evaluation, synthesis — running through a full-year course, with the earlier courses feeding the flagship rather than each teaching AI literacy from scratch.
 
-The argument behind it is that generative AI in the CS classroom demands productive skepticism rather than prohibition or uncritical adoption. That article, **"Distrust the Machine,"** is under review at ACM *Inroads*.
+The argument behind it is that generative AI in the CS classroom demands productive skepticism rather than prohibition or uncritical adoption. That article, **"Distrust the Machine,"** is forthcoming in ACM *Inroads*.
 
 I also write about this as it develops, including the parts that do not work, at [willbumgardner.substack.com](https://willbumgardner.substack.com/).
 
